@@ -30,6 +30,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       displayMessage('❌ You lost the game!');
+      document.querySelector('body').style.backgroundColor = '#ef4242';
       document.querySelector('.score').textContent = 0;
     }
   }
@@ -37,10 +38,10 @@ document.querySelector('.check').addEventListener('click', function () {
 
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
+  displayMessage('Start guessing...');
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   document.querySelector('body').style.backgroundColor = '#222';
-  document.querySelector('.number').style.width = '15 rem';
-  displayMessage('Start guessing...');
+  document.querySelector('.number').style.width = '15rem';
   document.querySelector('.score').textContent = score;
   document.querySelector('.guess').value = '';
   document.querySelector('.number').textContent = '?';
