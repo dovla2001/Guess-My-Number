@@ -26,3 +26,6 @@ Score decreases with each wrong guess.
 ---
 
 ## 📸 Screenshot
+
+![Game Screenshot] (assets/image1.png)
+![Game Screenshot] (assets/image2.png)
