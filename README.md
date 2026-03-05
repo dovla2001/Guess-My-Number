@@ -29,3 +29,4 @@ Score decreases with each wrong guess.
 
 ![Game Screenshot](assets/image1.png)
 ![Game Screenshot](assets/image2.png)
+![Game Screenshot](assets/image3.png)
